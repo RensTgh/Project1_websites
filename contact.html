@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact</title>
+
+</head>
+
+<body class="body_contact">
+    
+    <nav>
+        <ul class="navigatie">
+                <li class="nav_list"><a class="nav_link" href="index.html">Home</a></li>
+                <li class="nav_list "><a class="nav_link" href="curriculum_vitea.html">CV</a></li>
+                <li class="nav_list"><a class="nav_link" href="ervaring.html">Ervaringen</a></li>
+                <li class="nav_list"><a class="nav_link" href="hobby.html">Hobby's/ Intresses</a></li>
+                <li class="nav_list active"><a class="nav_link active" href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+    <h1>Contacteer ons</h1>
+
+    <form class="form_contact" action="verwerk.php" method="post">
+        <label for="naam">Naam:</label>
+        <input type="text" id="naam" name="naam" required><br><br>
+    
+        <label for="email">E-mailadres:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="onderwerp">Onderwerp:</label>
+        <input type="text" id="onderwerp" name="onderwerp" required><br><br>
+    
+        <label for="bericht">Bericht:</label><br>
+        <textarea id="bericht" name="bericht" rows="4" cols="50" required></textarea><br><br>
+    
+        <input class="button" type="submit" value="Verzenden">
+    </form>
+    
+
+</div>
+</body>
+
+</html>

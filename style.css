@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+   
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+html{
+    margin-left: 20px;
+}
+
+.body_index{
+    background-color: #585c68;
+}
+
+.navigatie {
+    color: #fcfcfc;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+.nav_link {
+    text-decoration: none;
+    color: orange;
+    display: inline;
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+    transition-duration: 0.3s;
+}
+
+.nav_link:hover{
+    text-decoration: underline;
+    color: #34bcec;
+    transition-duration: 0.3s;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.active{
+    color: #34bcec;
+    text-decoration: underline;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.foto_home {
+    width: 280px;
+    border-radius: 30px 0 30px 0;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #34bcec;
+}
+
+main {
+    margin: 20px 20px 20px 20px;
+    
+    border: solid white;
+    border-radius: 30px 30px 30px 30px;
+}
+
+p {
+    border-radius: 0 0 0 30px;
+    margin: 0 0 5px 8px;
+    color: #fff;
+}
+
+footer{
+    color: #fff;
+}
+
+/* hier stopt index */
+
+.body_cv {
+    background: #585c68;
+    font-size: 14px;
+    line-height: 22px;
+    color: #585c68;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.semi_bold{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.cv .cv_links {
+    width: 500px;
+    background: #34bcec;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv .cv_links .cv_profiel {
+    width: 100%;
+    height: 280px;
+    margin-left: 50px;
+}
+
+.cv .cv_links .cv_profiel img {
+    margin-top: 80px;
+    max-width: 400px;
+    border-radius: 10px 10px 10px 10px;
+}
+.cv .cv_links .cv_content .cv_contact {
+    padding: 0 25px;
+}
+
+li {
+    margin: 0 0 5px 8px;
+}
+
+.cv .title {
+    margin-bottom: 20px;
+}
+
+.cv .cv_links .bold {
+    color: #fff;
+}
+
+.cv .cv_links .regular {
+    color: #b1eaff;
+}
+
+.cv .cv_item {
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+
+.cv .cv_links .cv_item:last-child {
+    border-bottom: 0px;
+}
+
+.cv .cv_links ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cv .cv_links ul li:last-child {
+    margin-bottom: 0;
+}
+
+.cv .cv_links ul li .icon {
+    width: 35px;
+    height: 35px;
+    
+    color: #0bb5f4;
+    
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.cv .cv_links ul li .data {
+    color: white;
+}
+
+.cv .cv_links .cv_ervaring ul li { 
+    color: white;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.cv .cv_links .cv_ervaring ul li .ervaring_naam {
+    width: 25%;
+}
+
+.cv .cv_links .cv_ervaring ul li .ervaring_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+}
+
+.cv .cv_links .cv_ervaring ul li .ervaring_per {
+    width: 15%;
+}
+
+.cv .cv_links .cv_ervaring ul li .ervaring_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+.cv_rechts{
+    display: flex;
+    
+}
+/* hier stopt cv */
+
+.body_ervaring{
+    background-color: #585c68;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid_ervaring{
+    background-color: white;
+}
+
+.grid_ervaring p{
+    display: flex;
+    color: #585c68;
+    border: #585c68 solid 3px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+.grid_ervaring .ebema{
+    align-items: center;
+    max-width: 500px;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+
+/* hier stopt ervaring */
+
+.body_hobby {
+
+    background-color: #585c68;
+}
+
+.grid_hobby{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+   
+    
+}
+
+.grid_hobby p{
+    color: #585c68;
+    margin: 10px;
+}
+
+.gamen{
+    width: 400px;
+    border-radius: 5px;
+    align-content: center;
+    margin: 10px;
+}
+/* hier stopt hobby */
+
+.body_contact {
+    background-color: #585c68;
+}
+
+.form_contact{
+    border: solid gray;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.form_contact input {
+    border: solid black;
+    padding: 5px;
+    
+}
+.form_contact textarea {
+    border: solid black;
+    padding: 5px;
+}
+
+.button {
+    color: #34bcec;
+}
+
+
+/* hier stopt contact */
